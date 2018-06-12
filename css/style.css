@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+body {
+    font-weight: 300;
+}
+
+#bg-header{
+    height: 100vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/main-bg.jpg")no-repeat center;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main-title {
+    color: #757C8C;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 10rem;
+}
+
+.subtitle {
+    color: #9BA0AA;
+}
+
+#games {
+    height: 100%;
+}
+
+.thumb-image {
+    height: 200px;
+    width: 200px;
+}
+
+#historia {
+    height: 100%;
+}
+
+.timeline-dots li.slide-active button {
+    color: #9BA0AA;
+    font-size: 15px;
+}
+
+.timeline-item {
+    border: 0 !important;
+}
+
+.muted-light {
+    color: #9BA0AA !important;
+}
+
+.title {
+    padding-top: 10%;
+}
+
+#bg-title {
+    height: 65vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/bg2.jpg")no-repeat center fixed;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#cases {
+    height: 100%;
+}
+
+#assine {
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+}
+
+*::-webkit-input-placeholder {
+    color: #fff!important;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #fff!important;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #fff!important;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff!important;
+}
+
+footer {
+    height: 100%;
+    padding-top: 50px;
+}
+
+.fa {
+    font-size: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+    padding-right: 10px;  
+}
+
+.text-color {
+    color: #586074;
+}
